@@ -187,6 +187,7 @@
     .feature-block { grid-template-columns:1fr;gap:32px; }
     .feature-block.reverse { direction:ltr; }
     .path-steps { flex-direction:column; }
+    .path-step { width:100%;flex:none;min-height:78px; }
     .path-arrow { transform:rotate(90deg);align-self:center; }
     section { padding:64px 0; }
   }
@@ -230,7 +231,7 @@
             <span class="hero-title-highlight">5/20</span>
             <span class="hero-title-accent"> 全面升級</span>
           </h1>
-          <p class="hero-subtitle">五大核心功能強勢上線，從黃金外幣行情到商品分類篩選、AI 客戶輪廓速寫與智能快搜，全方位提升理專作業效率。<a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=PVp6IToWi06vG1j9f5KJT_JCli13zONHg6MfQLfrZUBUODBYTzdLOEZaTjRZMFA1NVg2QjJaNDFKWS4u">
+          <p class="hero-subtitle">五大核心功能強勢上線，從黃金外幣行情到商品分類篩選、AI 客戶輪廓速寫與智能快搜，全方位提升理專作業效率。<a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=PVp6IToWi06vG1j9f5KJT_JCli13zONHg6MfQLfrZUBUODBYTzdLOEZaTjRZMFA1NVg2QjJaNDFKWS4u" style="color:var(--white);">
   點我填寫回饋問卷並參與抽獎！
 </a></p>
           <a href="#features" class="hero-btn">
@@ -291,7 +292,6 @@
         <div class="feature-block reveal">
           <div class="feature-info">
             <div class="feature-num">01</div>
-            <div class="feature-icon-wrap icon-red">📊</div>
             <div class="feature-title">五大商品進階篩選</div>
             <p class="feature-desc">全新商品篩選功能整合五大類別指標，讓理專在各市場快訊頁面即可快速切換商品維度，精準鎖定當下最適合推薦的基金，告別繁複手動查詢流程，實現高效銷售導航。</p>
             <div class="category-pills">
@@ -323,7 +323,6 @@
         <div class="feature-block reverse reveal">
           <div class="feature-info">
             <div class="feature-num">02</div>
-            <div class="feature-icon-wrap icon-blue">🌐</div>
             <div class="feature-title">熱門外幣市場頁面</div>
             <p class="feature-desc">新增「熱門貨幣」獨立頁籤，整合歐元、澳幣、人民幣等主流幣別外匯資訊。提供美元指數、歐元兌美元、澳幣兌美元等多種關鍵指數切換，搭配均線走勢圖及 AI 自動分析近期外匯市場重點，協助理專針對不同客戶需求，靈活提供跨幣別的配置建議。</p>
             <div class="feature-tags">
@@ -352,7 +351,6 @@
         <div class="feature-block reveal">
           <div class="feature-info">
             <div class="feature-num">03</div>
-            <div class="feature-icon-wrap icon-gold">📈</div>
             <div class="feature-title">黃金市場專屬頁面</div>
             <p class="feature-desc">全新獨立黃金市場頁籤正式上線，清楚呈現現貨黃金（XAU/USD）走勢圖，含 MA20、MA60、MA120 三條均線，搭配 AI 自動生成近期市場重點分析，涵蓋最新收盤價、相對區間判斷與趨勢狀態，幫助理專快速掌握黃金行情，在互動前備妥充足市場資訊。</p>
             <div class="feature-tags">
@@ -381,7 +379,6 @@
         <div class="feature-block reverse reveal">
           <div class="feature-info">
             <div class="feature-num">04</div>
-            <div class="feature-icon-wrap icon-teal">🔍</div>
             <div class="feature-title">一鍵生成客戶輪廓速寫</div>
             <p class="feature-desc">系統整合客戶輪廓速寫功能，以結構化方式彙整每位客戶的資產負債、商品往來趨勢、投資行為等多維度資訊。理專先選定商品並查詢出持有客戶清單，再針對目標客戶一鍵觸發 AI 速寫分析，快速產出個人化輪廓報告，讓互動前準備時間大幅縮短。</p>
             <div class="feature-tags">
@@ -436,7 +433,6 @@
         <div class="feature-block reveal">
           <div class="feature-info">
             <div class="feature-num">05</div>
-            <div class="feature-icon-wrap icon-purple">🎯</div>
             <div class="feature-title">智能客戶快搜精準行銷</div>
             <p class="feature-desc">全新智能快搜功能大幅升級，依照不同市場情境與商品類別，內建由專家設計的推薦查詢語句。理專可從熱門搜尋語句或常用句快速選擇，系統 AI 自動解析條件並辨識篩選參數，一鍵撈取符合條件的目標客群清單，支援彈性自行編輯查詢條件，讓客源開發更精準高效。</p>
             <div class="feature-tags">
@@ -478,7 +474,7 @@
 
   
   <footer>
-    <p>© 2026 永豐銀行 · 內部版水晶球 Copilot &nbsp;｜&nbsp; 路徑：NCRM &rarr; 理專 Copilot 工具箱 &rarr; 市場快訊 &rarr; 各大市場標籤 &nbsp;｜&nbsp; 內部人員限定</p>
+    <p>© 2026 永豐銀行 · 內部版水晶球 Copilot &nbsp;｜&nbsp; 路徑：NCRM &rarr; 理專 Copilot 工具箱 &rarr; 市場快訊 &rarr; 各大市場標籤 &nbsp;｜&nbsp; 僅限內部人員使用</p>
   </footer>
 </div>
 
